@@ -1,0 +1,135 @@
+.gatorTitle {
+    color: #cc8f0c;
+    background-color:#002975;
+    align-content: center;
+    align-items: center;
+    border: 0px hidden; 
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top:0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+
+/* margin-left: -500px; */
+/* display:block; */
+}
+.titleFormat{
+    text-align: center;
+}
+
+.all{
+    height: '100vh';
+    min-height: '100vh';
+    background-color:  #282c34;
+}
+
+
+
+.text {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%);
+    background: orange; */
+    line-height: 60px;
+margin: 0 auto;
+display: block;
+width: 940px;
+text-align:center;
+  }
+
+.inBox { 
+  width: 500px; 
+  height: 200px; 
+  border: 1px solid #999999; 
+  padding: 5px; 
+  text-align:left;
+  text-overflow:inherit;
+  font-size: 20px;
+
+}
+
+.boxFormat{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.selFormat{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.transBFormat{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.transFormat{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    align-content: center;
+    /* padding: 5px; 
+
+    border: 1px solid white;  */
+}
+
+.thumbUpButton{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+
+.thumbDownButton{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+
+
+.tButSize{
+    height:40px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.redirButton{
+    position: absolute;
+    top: 70%;
+    left: 68%;
+    height: 60px;
+    width: 350px;
+}
+
+.inputTitle{
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+}
+
+.outputTitle{
+    position: absolute;
+    top: 28%;
+    left: 65%;
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+}
+
+.container{
+    border: 1px solid white; 
+    padding: 5px;
+}
