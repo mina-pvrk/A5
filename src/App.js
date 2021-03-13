@@ -33,6 +33,7 @@ class App extends Component {
     };
   }
 
+  //update link for the survey
   handleEClick(){
     window.location.assign('http://www.google.com');
   }
@@ -94,7 +95,7 @@ class App extends Component {
         </button>
         </div>
         <div className="redirButton">
-        <button onClick={this.handleEClick.bind(this)}>Stop Translating and Evaluate Page</button>
+        <button className="redirBtnF" onClick={this.handleEClick.bind(this)}>Stop Translating & Evaluate Page</button>
         </div>
       </div>
 

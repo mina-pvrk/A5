@@ -106,9 +106,18 @@ text-align:center;
 .redirButton{
     position: absolute;
     top: 70%;
-    left: 68%;
-    height: 60px;
-    width: 350px;
+    left: 40%;
+    height: 70px;
+    width: 375px;
+}
+
+.redirBtnF{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(190, 99, 46);
+    align-items: center;
+    align-content: center;
 }
 
 .inputTitle{
