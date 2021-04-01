@@ -35,7 +35,7 @@ class App extends Component {
 
   //update link for the survey
   handleEClick(){
-    window.location.assign('http://www.google.com');
+    window.location.assign('https://forms.gle/cTcjccMzKN9SYTey6');
   }
 
 
@@ -84,13 +84,15 @@ class App extends Component {
         {transText}
         </p>
         <div className="thumbUpButton">
-        <button>
+        <button
+            onClick = {() => this.handleUpClick()}>
             <img src={thumbs} alt="thumbs"/>
         </button>
         </div>
 
         <div className="thumbDownButton">
-        <button>
+        <button
+            onClick = {() => this.handleDownClick()}>
             <img src={thumbDown} alt="thumbDown"/>
         </button>
         </div>
@@ -116,9 +118,15 @@ class App extends Component {
         transText: this.state.userIn
       }));
     }
-
-    
   }
+
+  handleUpClick(){
+    window.alert('Translation was great!')
+  };
+
+  handleDownClick(){
+    window.alert('Translation was not great.')
+  };
 
   changeHandler = language => {
     let { userIn } = this.state;
